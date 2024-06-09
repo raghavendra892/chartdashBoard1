@@ -27,7 +27,16 @@ export class AppComponent {
   public matchedChartData: any;
   public mismatchedChartData: any;
   public semenCollectionChartData: any;
-  public semenCollectionData: any 
+  public semenCollectionData: any = {
+    checkedIn: {
+      new: 0,
+      followUp: 0
+    },
+    scheduled: {
+      new: 0,
+      followUp: 0
+    }
+  };
   public chartOptions: any;
 
   constructor(private dataService: DataService) { }
