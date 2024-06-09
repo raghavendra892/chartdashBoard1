@@ -1,0 +1,20 @@
+{
+  "witnessReport": {
+    "matched": 80,
+    "mismatched": 20
+  },
+  "semenCollection": {
+    "total": 100,
+    "checkedIn": {
+      "new": 68,
+      "followUp": 32
+    },
+    "scheduled": {
+      "new": 68,
+      "followUp": 32
+    }
+  }
+}
+
+
+

@@ -1,0 +1,26 @@
+
+mat-nav-list {
+    width: 300px;
+    background: #f4f4f4;
+    height: 100vh;
+  }
+  
+  mat-list-item {
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  mat-list-item:hover{
+    color: #F25B5B;
+  }
+
+  mat-icon{
+    margin-right: 10px;
+  }
+
+  .summ{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
