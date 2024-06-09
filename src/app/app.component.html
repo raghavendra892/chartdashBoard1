@@ -8,7 +8,6 @@
       <mat-icon>person</mat-icon>
     </div>
   </mat-toolbar>
-  
   <div class="row">
     <div class="col-md-2">
       <app-sidebar></app-sidebar>
@@ -65,8 +64,8 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div style="width: 50%; padding-left: 20px;">
-              <div style="display: flex; justify-content: space-between;">
+            <div class="semen-box">
+              <div class="d-flex justify-content-between">
                 <div *ngIf="semenCollectionData.checkedIn" class="border1">
                   <h4 class="checked">Checked-In</h4>
                   <p class="border-bott">New: <br> <strong>{{semenCollectionData.checkedIn.new}}%</strong></p>
@@ -76,7 +75,7 @@
                 </div>
                 <div>
                   <h4>Scheduled</h4>
-                  <p class="border-bott">New:<strong>{{semenCollectionData.scheduled.new}}%</strong></p>
+                  <p class="border-bott">New: <br> <strong>{{semenCollectionData.scheduled.new}}%</strong></p>
                   <div>
                     <p class="follow">Follow Up:</p><strong>{{semenCollectionData.scheduled.followUp}}%</strong>
                   </div>
