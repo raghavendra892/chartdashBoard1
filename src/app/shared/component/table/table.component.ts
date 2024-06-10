@@ -24,8 +24,5 @@ export class TableComponent implements OnInit ,AfterViewInit{
     this.dataSource = new MatTableDataSource(this.componentStatus);
   }
 
-  //displayedColumns: string[] = ['count', 'name', 'status', 'date'];
-
   displayedColumns: string[] = ['datetime', 'name', 'age', 'number', 'reason'];
-
 }

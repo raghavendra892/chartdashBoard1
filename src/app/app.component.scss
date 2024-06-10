@@ -138,9 +138,6 @@
     display: none;
 }
 
-.sidebar.collapsed {
-    display: none;
-}
 
 @media (max-width: 768px) {
     .header-info {
@@ -203,5 +200,9 @@
     .sidebar {
         width: 100%;
     }
+
+    .sidebar.collapsed {
+        display: none; 
+      }
     
 }
