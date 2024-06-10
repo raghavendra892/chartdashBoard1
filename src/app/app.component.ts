@@ -21,6 +21,17 @@ export class AppComponent {
     this.selectedTab = tab;
   }
 
+  isSidebarCollapsed = false;
+  
+  toggleSidebar() {
+    if (window.innerWidth <= 767) { 
+      this.isSidebarCollapsed = !this.isSidebarCollapsed; 
+    }  
+  }
+
+  isMobile() {
+    return window.innerWidth <= 767;
+  }
 
 
 

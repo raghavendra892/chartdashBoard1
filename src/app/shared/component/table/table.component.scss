@@ -17,6 +17,15 @@ td.mat-foote {
 tr.mat-header-row {
     background-color: #f8f9fa;
 }
+
 a{
     color: blue;
+}
+
+
+
+@media (max-width: 768px){
+    th.mat-header-cell:first-of-type, td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type{
+        padding: 10px !important;
+    }
 }
